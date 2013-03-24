@@ -1,0 +1,35 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.Sherlock.Light.DarkActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="TimerBigText">
+        <item name="android:textSize">@dimen/heading_super_insanity</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="TimerMediumText">
+        <item name="android:textSize">@dimen/heading_insanity</item>
+        <item name="android:textColor">@color/dark_orange</item>
+    </style>
+    
+    <style name="TimerSmallText">
+        <item name="android:textSize">@dimen/heading_xlarge</item>
+        <item name="android:textColor">@color/dark_orange</item>
+    </style>
+
+</resources>

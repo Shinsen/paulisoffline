@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_xsmall">4dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+    <dimen name="padding_xlarge">48dp</dimen>
+    
+    <dimen name="normal_small">12sp</dimen>
+    <dimen name="normal_normal">14sp</dimen>
+    <dimen name="normal_large">16sp</dimen>
+    <dimen name="heading_normal">20sp</dimen>
+    <dimen name="heading_large">24sp</dimen>
+    <dimen name="heading_xlarge">28sp</dimen>
+    <dimen name="heading_insanity">36sp</dimen>
+    <dimen name="heading_super_insanity">42sp</dimen>
+</resources>

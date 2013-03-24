@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="timer_orange_weight">70</integer>
+    <integer name="timer_white_weight">30</integer>
+    <integer name="weight_half">50</integer>
+    <integer name="weight_equal">1</integer>
+</resources>

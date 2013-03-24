@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="short_app_name">Paul</string>
+    <string name="app_name">Paul is Offline</string>
+	<string name="timer_sorry">Sorry,</string>
+	<string name="timer_offline">Paul is Offline</string>
+	<string name="timer_return">PAUL WILL RETURN IN...</string>
+	<string name="timer_over">PAUL HAS RETURNED.</string>
+	<string name="timer_hour">h</string>
+	<string name="timer_minute">m</string>
+	<string name="timer_day">d</string>
+	
+	<string name="menu_about">About</string>
+	<string name="about_dismiss">Dismiss</string>
+	<string name="about_visit">flamin.co</string>
+	<string name="about_title">About Paul is Offline</string>
+	<string name="about_about">This application was lovingly crafted in about 3 hours.\n\n This app is not an official or affiliated product by The Verge (theverge.com) and was created without their consent.\n\nYou can check out other stuff I\'ve done at flamin.co.</string>
+	<string name="about_load">Loading Apache License information...</string>
+</resources>
