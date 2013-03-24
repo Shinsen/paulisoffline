@@ -1,3 +1,17 @@
+/*Copyright 2013 Christopher Eggison
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.*/
+
 package com.flamingo.object;
 
 /**
@@ -5,7 +19,7 @@ package com.flamingo.object;
  * @author Chris Eggison (http://flamin.co)
  *
  */
-public class Timertron {
+public class Timertron { 
 	// If you get the Timertron reference, good on you.
 	private long targetTime = 0L;
 	private long targetDays = 0L;
@@ -80,22 +94,42 @@ public class Timertron {
 		}
 	}
 
+	/**
+	 * Returns the current set target time
+	 * @return
+	 */
 	public long getTargetTime() {
 		return targetTime;
 	}
 
+	/**
+	 * Sets the current target time. Remember to call calculateDifference() afterwards.
+	 * @param targetTime New Target Time
+	 */
 	public void setTargetTime(long targetTime) {
 		this.targetTime = targetTime;
 	}
 
+	/**
+	 * Returns the calculated difference in whole days.
+	 * @return
+	 */
 	public long getTargetDays() {
 		return targetDays;
 	}
 
+	/**
+	 * Returns the calculated difference in hours. Does not count past 24 hours.
+	 * @return
+	 */
 	public long getTargetHours() {
 		return targetHours;
 	}
 
+	/**
+	 * Returns the calculated difference in minutes. Does not count past 60 minutes.
+	 * @return
+	 */
 	public long getTargetMinutes() {
 		return targetMinutes;
 	}
